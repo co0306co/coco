@@ -1,0 +1,155 @@
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    min-width: 300px;
+    max-width: 640px;
+
+    /*background: #f0eff5;*/
+    background: #d6d6d6;
+}
+
+/*导航部分*/
+.nav{
+
+    width: 100%;
+    height: 7rem;
+    background: #0894ec;
+    margin:0 auto;
+}
+
+.nav a{
+    /*flex: 2;*/
+    display: inline-block;
+    width: 34%;
+    height: 4.4rem;
+    background: url(../images/logo.png) no-repeat;
+    margin-top:1rem;
+    margin-left:0.4rem;
+
+}
+
+.nav form{
+    display: inline-block;
+    width: 50%;
+    vertical-align: 1rem;
+    padding:0;
+}
+.nav input[type=search]{
+    display: inline-block;
+    width:60%;
+    height:3.2rem;
+    border:none;
+    border-radius: 0.2rem;
+
+}
+.nav input[type=button]{
+    display: inline-block;
+    width:32%;
+    height:3.4rem;
+    border:none;
+    border-radius: 0.2rem;
+    background: #e88c0d;
+    color:#fff;
+    padding:0;
+    font-weight: 600;
+    font-size: 1.4rem;
+
+}
+.nav span{
+    display: inline-block;
+    width: 10%;
+    height:3.2rem;
+    line-height:3.2rem ;
+    text-align: center;
+    color:#fff;
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin-right:0.4rem;
+
+    vertical-align: 1rem;
+}
+/*导航部分*/
+
+/*头像部分*/
+.head-p{
+    width: 100%;
+    height: 12rem;
+    /*margin:3rem 1rem;*/
+    /*background: #fff;*/
+    /*margin-left:10px;*/
+    margin:10px auto;
+}
+
+.head-p-wrap{
+    width: 95%;
+    height: 12rem;
+    background: #fff;
+    margin:0 1rem;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+
+.head-p-wrap li{
+    width: 33%;
+    height: 12rem;
+    float:left;
+    /*background: lightgreen;*/
+}
+.head-p-l a{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+.head-p-l img{
+
+    width: 10.9rem;
+    height: 12rem;
+    background-position: center;
+}
+.head-p-m p{
+    width: 78%;
+    height: 4rem;
+    line-height: 4rem;
+    font-size: 2rem;
+    text-align:left;
+    margin-top:10px;
+
+}
+.head-p-m a{
+    display: block;
+    width: 12%;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    color:#fff;
+    background: #ccc;
+    text-align: center;
+}
+
+.head-p-m span{
+    display: block;
+    width: 58%;
+    height: 4rem;
+    line-height: 4rem;
+    font-size: 18px;
+    text-align: center;
+}
+.head-p-r p{
+    width: 100%;
+    height: 12rem;
+    line-height: 12rem;
+    font-size: 4rem;
+    text-align: right;
+    color:#ccc;
+
+}
+
+#item{
+    width: 200px;
+    height: 200px;
+    background: pink;
+}

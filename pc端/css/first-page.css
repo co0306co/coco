@@ -1,0 +1,411 @@
+/*导航部分*/
+
+html{
+
+    font-size: 62.5%;
+}
+
+
+
+/*所有的宽用百分比，高用rem*/
+.jrl-box{
+    min-width: 300px;
+    max-width: 640px;
+}
+
+.nav{
+
+    width: 100%;
+    height: 7rem;
+    background: #0894ec;
+    margin:0 auto;
+}
+
+.nav a{
+    /*flex: 2;*/
+    display: inline-block;
+    width: 34%;
+    height: 4.4rem;
+    background: url(../images/logo.png) no-repeat;
+    margin-top:1rem;
+    margin-left:0.4rem;
+
+}
+
+.nav form{
+    display: inline-block;
+    width: 50%;
+    vertical-align: 1rem;
+    padding:0;
+}
+.nav input[type=search]{
+    display: inline-block;
+    width:60%;
+    height:3.2rem;
+    border:none;
+    border-radius: 0.2rem;
+
+}
+.nav input[type=button]{
+    display: inline-block;
+    width:32%;
+    height:3.4rem;
+    border:none;
+    border-radius: 0.2rem;
+    background: #e88c0d;
+    color:#fff;
+    padding:0;
+    font-weight: 600;
+    font-size: 1.4rem;
+
+}
+.nav span{
+    display: inline-block;
+    width: 10%;
+    height:3.2rem;
+    line-height:3.2rem ;
+    text-align: center;
+    color:#fff;
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin-right:0.4rem;
+
+    vertical-align: 1rem;
+}
+/*导航部分*/
+
+
+.title{
+    width: 100%;
+    height: 6rem;
+    border-bottom:1px solid #ccc;
+
+
+}
+.title p{
+    width: 30%;
+    height: 6rem;
+    line-height: 6rem;
+    text-align: center;
+    font-size: 1.8rem;
+    color:#3c4145;
+    font-family: 'SimSun';
+    font-weight: 600;
+}
+
+.title-content{
+    width: 100%;
+
+}
+.title-content ul{
+    width: 100%;
+    height: 11rem;
+
+
+}
+
+.title-content ul{
+    /*background: pink;*/
+    margin-top:1rem;
+    display: flex;
+}
+
+
+.title-content li{
+    flex:1;
+    display: inline-block;
+    /*width: 32%;*/
+    /*background: #91ffd2;*/
+    height: 11rem;
+    text-align: center;
+}
+
+.first-line-l a{
+     width: 100%;
+     height: 8rem;
+     display: inline-block;
+     background: url(../images/nav1.png) no-repeat;
+     background-position: center;
+
+}
+.title-content p{
+    width: 100%;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    font-size: 1.6rem;
+    text-align: center;
+
+}
+.first-line-m a{
+    width: 100%;
+    height: 8rem;
+    display: inline-block;
+    background: url(../images/house.png) no-repeat;
+    background-position: center;
+}
+.first-line-r a{
+    width: 100%;
+    height: 8rem;
+    display: inline-block;
+    background: url(../images/car.png) no-repeat;
+    background-position: center;
+}
+
+.last-line-l a{
+    width: 100%;
+    height: 8rem;
+    display: inline-block;
+    background: url(../images/ship.png) no-repeat;
+    background-position: center;
+}
+.last-line-m a{
+    width: 100%;
+    height: 8rem;
+    display: inline-block;
+    background: url(../images/cheng.png) no-repeat;
+    background-position: center;
+}
+
+.last-line-r a{
+    width: 100%;
+    height: 8rem;
+    display: inline-block;
+    background: url(../images/more.png) no-repeat;
+    background-position: center;
+}
+/*轮播图*/
+
+
+
+.loop{
+    height: 12rem;
+    /*background: pink;*/
+    border-top:1rem solid #f0eff5;
+    margin-top:1rem;
+    position:relative ;
+
+}
+
+
+
+.loop ul:nth-child(1){
+    width: 500%;
+    /*height: 10.6rem;*/
+   position: absolute;
+    left:0;
+    animation: move 10s linear infinite;
+}
+.loop ul:nth-child(1) li{
+    width: 20%;
+    /*height: 10.6rem;*/
+    float:left;
+
+
+}
+
+.loop a{
+    width: 100%;
+    display: inline-block;
+}
+
+
+
+/*
+.dot li{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background: #ff54c7;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes move {
+    0%{
+        left:0;
+    }
+    100%{
+        left:-50%;
+    }
+}
+
+
+
+/*按钮*/
+.btn{
+    width: 100%;
+    height: 8rem;
+    /*background: #bcfff1;*/
+
+    border-top:1rem solid #f0eff5;
+    border-bottom:1rem solid #f0eff5;
+
+    /*留有均等的空白*/
+    display: flex;
+    justify-content:space-around;
+
+
+}
+.btn input {
+
+    /*flex: 1;*/
+    /*float:left;*/
+
+    width: 30%;
+    height: 6rem;
+    margin-top:1rem;
+    background: #0894ec;
+    border-radius: 0.2rem;
+    text-align: center;
+    line-height: 6rem;
+    border: none;
+    font-size: 1.8rem;
+    color:#fff;
+}
+
+/*推荐业务*/
+.business{
+    width: 100%;
+    height: 8rem;
+    /*background:#bcfff1 ;*/
+    display: flex;
+    border-bottom:0.1rem solid #ccc;
+
+}
+.business p{
+    flex: 1;
+    /*width: 20%;*/
+    text-align: center;
+    height: 8rem;
+    line-height: 8rem ;
+    font-size: 2.2rem;
+    color:#3d4045;
+}
+.business div{
+    flex: 1;
+}
+.business a{
+    flex: 1;
+    /*width: 20%;*/
+    text-align: center;
+    height: 8rem;
+    line-height: 8rem ;
+    font-size: 1.8rem;
+    color:#8d8d8d;
+}
+
+/*推荐业务内容*/
+
+.business-content{
+    width: 100%;
+
+    border-bottom:1rem solid #f0eff5;
+    /*height: 10rem;*/
+    /*background: pink;*/
+
+
+
+}
+.business-content li{
+    width: 100%;
+    height: 10rem;
+    border-bottom:1px solid #e7e7e7;
+
+    display: flex;
+    justify-content:center ;
+}
+.left{
+    float:left;
+    width: 72%;
+    height: 10rem;
+    /*background: #bcfff1;*/
+
+
+}
+.left p{
+    width: 100%;
+    height: 5rem;
+    /*background: #cccccc;*/
+    text-align: left;
+    line-height: 5rem;
+    font-size: 1.6rem;
+}
+
+
+.right{
+    float:left;
+    width: 18%;
+    height: 10rem;
+
+}
+.right p{
+
+    width: 100%;
+    height: 5rem;
+    /*background: #cccccc;*/
+    text-align: right;
+    line-height: 5rem;
+    font-size: 1.6rem;
+
+}
+.right a{
+    display:inline-block;
+    width: 20%;
+    height: 2.5rem;
+    line-height: 2.5rem;
+
+    text-align: center;
+    color:#fff;
+}
+
+.ding{
+    background: red;
+}
+
+.jian{
+    background: #0000fe;
+}
+
+/*业务渠道*/
+.banks{
+    width: 100%;
+    padding:3rem 0;
+    border-bottom:1px solid #e7e7e7;
+
+}
+.banks li{
+
+    float: left;
+    width: 33%;
+    margin-top:1rem;
+
+
+}
+.banks p{
+
+    height: 3rem;
+    line-height: 3rem;
+    font-size: 2rem;
+    color:#8d8d8d;
+    text-align: center;
+}
+.banks img{
+    /*给图片设置固定的宽度占父级元素的80%，这样缩小的时候就不会被覆盖*/
+    width: 80%;
+
+}
